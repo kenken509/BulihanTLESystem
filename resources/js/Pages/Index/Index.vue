@@ -10,7 +10,7 @@
     
     <div class="flex justify-center ">
         <div class="w-full max-h-[500px] overflow-hidden ">
-            <WebHeaderLayout/> 
+            <WebHeaderLayout :appUrl="data.appUrl"/> 
         </div>
     </div>
   
@@ -122,6 +122,7 @@ const data =  defineProps({
   currentUrl: String,
   carouselImages: Array,
   newsPost: Object,
+  appUrl:String,
 })
 
 const user = computed(() => usePage().props.user);

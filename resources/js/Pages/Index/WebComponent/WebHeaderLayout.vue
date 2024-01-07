@@ -8,11 +8,11 @@
                     <h1 class="flex text-[13px] md:text-[20px]  lg:text-[25px] xl:text-[30px] font-serif text-gray-100 tracking-wider ">Technology and Livelihood Education</h1>
                     
                     
-                    
                 </div>
             </div>
             <div class="relative my-4">
-                <img src="/storage/Images/tleLogo.jpg" alt="error" class="mr-4 w-[70px] h-[70px] lg:w-[130px] lg:h-[130px] tle-logo-hide rounded rounded-full">
+                
+                <img :src="url.appUrl+'/storage/Images/tleLogo.jpg'" alt="error" class="mr-4 w-[70px] h-[70px] lg:w-[130px] lg:h-[130px] tle-logo-hide rounded rounded-full">
             </div>
             
         </div>
@@ -22,6 +22,10 @@
 </template>
 
 <script setup>
+
+const url = defineProps({
+    appUrl:String,
+})
 
 </script>
 

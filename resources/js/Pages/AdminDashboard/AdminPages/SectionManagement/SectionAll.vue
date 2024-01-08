@@ -10,7 +10,7 @@
                 </span>
             </div>
         </div>
-        <span class="text-red-500">TO DO: COMPLETE THE STUDENTS PRINT DESIGN</span>
+       
         <div v-if="$page.props.flash.success" >{{ successMessage($page.props.flash.success) }} </div>
         <div class=" overflow-x-auto shadow-md rounded-lg ">
             <table  class="w-full text-sm text-left text-gray-500 dark:text-gray-400">

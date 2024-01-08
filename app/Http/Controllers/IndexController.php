@@ -24,12 +24,12 @@ class IndexController extends Controller
         // record new visit upon loading this page;
         // $newVisitor->type = 'visit';
         // $newVisitor->save();
-        $appUrl = env('APP_URL');
+        // $appUrl = env('APP_URL');
         
         return inertia('Index/Index',[
             'carouselImages' => CarouselImageModel::latest()->get(),
             'newsPost' => $posts,
-            'appUrl'    => $appUrl,
+            // 'appUrl'    => $appUrl,
         ]);
     }
     

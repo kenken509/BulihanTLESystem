@@ -12,7 +12,7 @@
             </div>
             <div class="relative my-4">
                 
-                <img :src="url.appUrl+'/storage/Images/tleLogo.jpg'" alt="error" class="mr-4 w-[70px] h-[70px] lg:w-[130px] lg:h-[130px] tle-logo-hide rounded rounded-full">
+                <img :src="'storage/Images/teLogo.jpg'" alt="error" class="mr-4 w-[70px] h-[70px] lg:w-[130px] lg:h-[130px] tle-logo-hide rounded rounded-full">
             </div>
             
         </div>
@@ -23,9 +23,7 @@
 
 <script setup>
 
-const url = defineProps({
-    appUrl:String,
-})
+
 
 </script>
 

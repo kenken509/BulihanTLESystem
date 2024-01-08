@@ -10,7 +10,7 @@
     
     <div class="flex justify-center ">
         <div class="w-full max-h-[500px] overflow-hidden ">
-            <WebHeaderLayout :appUrl="data.appUrl"/> 
+            <WebHeaderLayout /> 
         </div>
     </div>
   
